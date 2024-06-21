@@ -7,9 +7,6 @@ components:
       image: quay.io/devfile/universal-developer-image:ubi8-latest
       memoryLimit: 1G
       mountSources: true
-  - name: Ansible
-    plugin: 
-     id: redhat.ansible/24.4.0
 commands:
   - id: build
     exec:
